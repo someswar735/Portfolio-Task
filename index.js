@@ -1,18 +1,13 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Get all elements with the class 'description'
     const descriptions = document.querySelectorAll('.description');
 
-    // Loop through each description element
     descriptions.forEach(description => {
-        // Add event listener for mouseenter (hover in)
+       
         description.parentNode.addEventListener('mouseenter', () => {
-            // Remove the class 'description-hidden' to show the description
             description.classList.remove('description-hidden');
         });
 
-        // Add event listener for mouseleave (hover out)
         description.parentNode.addEventListener('mouseleave', () => {
-            // Add the class 'description-hidden' to hide the description
             description.classList.add('description-hidden');
         });
     });
