@@ -1,4 +1,5 @@
-html {
+
+body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -41,7 +42,7 @@ section {
     margin: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    cursor: pointer; /* Add cursor pointer to indicate interaction */
+    cursor: pointer; 
 }
 
 
@@ -49,16 +50,16 @@ section {
 #profile-pic {
     display: block;
     margin: 0 auto;
-    width: 150px; /* Adjust size as needed */
-    height: 150px; /* Adjust size as needed */
-    border-radius: 50%; /* Make it circular */
-    border: 5px solid #fff; /* Add a white border */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%; 
+    border: 5px solid #fff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 .card {
     transition: all 0.3s ease;
-    max-width: 900px; /* Limit the maximum width of the card */
+    max-width: 900px; 
     align-items: center;
     background-color: #333;
 }
@@ -84,9 +85,9 @@ section {
     margin: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    cursor: pointer; /* Add cursor pointer to indicate interaction */
+    cursor: pointer; 
     transition: all 0.3s ease;
-    max-width: 900px; /* Limit the maximum width of the card */
+    max-width: 900px; 
 }
 
 
@@ -111,13 +112,13 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh; /* Set a minimum height to fill the viewport */
+    min-height: 100vh; 
 }
 
 .card {
-    width: 80%; /* Set the width of the cards */
-    margin: 20px 0; /* Add some vertical margin between cards */
-    padding: 20px; /* Add padding inside each card */
+    width: 80%; 
+    margin: 20px 0;
+    padding: 20px; 
     border: 1px solid #ccc;
     border-radius: 5px;
 }
@@ -127,9 +128,9 @@ section {
     margin: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    cursor: pointer; /* Add cursor pointer to indicate interaction */
+    cursor: pointer;
     transition: all 0.3s ease;
-    max-width: 900px; /* Limit the maximum width of the card */
+    max-width: 900px;
 }
 .grid-container {
     display: grid;
@@ -144,12 +145,14 @@ section {
 }
 
 .grid-item h3 {
-    margin-bottom: 10px; /* Add space below the heading */
+    margin-bottom: 10px;
 }
 
 .grid-item ul {
-    padding-left: 20px; /* Indent the list items */
+    list-style-type: disc;
+    padding-left: 20px;
 }
+
 
 .card {
     padding: 20px;
@@ -162,18 +165,18 @@ nav {
     background-size: 200% auto;
     animation: gradientAnimation 10s ease infinite;
     padding: 10px 20px;
-    text-align: center; /* Align the content to the center */
+    text-align: center; 
 }
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: inline-block; /* Display the list items as inline-block */
+    display: inline-block; 
 }
 
 li {
-    display: inline-block; /* Display the list items as inline-block */
+    
     margin-right: 20px;
 }
 
