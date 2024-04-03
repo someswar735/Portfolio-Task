@@ -1,0 +1,191 @@
+html {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: azure;
+    background-image: linear-gradient(to right, #333, #da1b60, #333, #da1b60, #333);
+    background-size: 200% auto;
+    animation: gradientAnimation 10s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+header {
+   
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    background-image: linear-gradient(to right, #333, #da1b60, #333, #da1b60, #333);
+    background-size: 200% auto;
+    animation: gradientAnimation 10s ease infinite;
+}
+
+
+
+section {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer; /* Add cursor pointer to indicate interaction */
+}
+
+
+
+#profile-pic {
+    display: block;
+    margin: 0 auto;
+    width: 150px; /* Adjust size as needed */
+    height: 150px; /* Adjust size as needed */
+    border-radius: 50%; /* Make it circular */
+    border: 5px solid #fff; /* Add a white border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.card {
+    transition: all 0.3s ease;
+    max-width: 900px; /* Limit the maximum width of the card */
+    align-items: center;
+    background-color: #333;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.description {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.description-hidden {
+    display: none;
+}
+
+.card:hover .description {
+    opacity: 1;
+}
+.project-card {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer; /* Add cursor pointer to indicate interaction */
+    transition: all 0.3s ease;
+    max-width: 900px; /* Limit the maximum width of the card */
+}
+
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-card .description {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.project-card .description-hidden {
+    display: none;
+}
+
+.project-card:hover .description {
+    opacity: 1;
+}
+.all-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Set a minimum height to fill the viewport */
+}
+
+.card {
+    width: 80%; /* Set the width of the cards */
+    margin: 20px 0; /* Add some vertical margin between cards */
+    padding: 20px; /* Add padding inside each card */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.project-card {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer; /* Add cursor pointer to indicate interaction */
+    transition: all 0.3s ease;
+    max-width: 900px; /* Limit the maximum width of the card */
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.grid-item {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.grid-item h3 {
+    margin-bottom: 10px; /* Add space below the heading */
+}
+
+.grid-item ul {
+    padding-left: 20px; /* Indent the list items */
+}
+
+.card {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+nav {
+    background-image: linear-gradient(to right, #333, #da1b60, #333, #da1b60, #333);
+    background-size: 200% auto;
+    animation: gradientAnimation 10s ease infinite;
+    padding: 10px 20px;
+    text-align: center; /* Align the content to the center */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block; /* Display the list items as inline-block */
+}
+
+li {
+    display: inline-block; /* Display the list items as inline-block */
+    margin-right: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #555;
+}
